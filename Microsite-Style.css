@@ -31,14 +31,14 @@
 
 .MainBody {
   display: grid;
-  grid-template-columns: 30% 70%;
+  grid-template-columns: 35% 65%;
   grid-template-rows: 38rem;
   border: black solid 1px;
 }
 
 .col-1 {
   background-color: black;
-  padding: 5rem;
+  padding: 5rem 3rem 3rem;
 }
 h3 {
   color: rgb(238, 147, 138);
@@ -47,7 +47,7 @@ h3 {
   font-weight: bold;
   padding-bottom: 2rem;
 }
-p {
+.MainBody p {
   color: rgb(238, 205, 202);
   font-family: "Merienda";
   line-height: 2.2rem;
@@ -71,35 +71,33 @@ p {
 }
 .Links {
   background-color: rgb(129, 129, 224);
-  size: 100% 100%;
+
   font-size: 30px;
-  color: black;
+
   padding: 10rem 30rem 30rem;
   line-height: 3rem;
 }
 .Links a {
   text-decoration: none;
+  color: black;
+  background-color: rgb(57, 189, 107);
+  border-radius: 1rem;
+  text-transform: capitalize;
 }
 .Contact {
   background-color: rgb(129, 129, 224);
-  size: 100% 100%;
+
   font-size: 30px;
-  color: black;
+
   padding: 10rem 30rem 30rem;
   line-height: 3rem;
 }
 .About p {
   background-color: rgb(129, 129, 224);
-  size: 100% 100%;
+
   font-size: 30px;
-  color: black;
+
   padding: 10rem 30rem 30rem;
   line-height: 3rem;
   font-weight: normal;
-}
-
-@media (min-width: 600px) {
-  .Contact {
-    color: rebeccapurple;
-  }
 }
