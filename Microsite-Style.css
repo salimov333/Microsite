@@ -3,22 +3,22 @@
 }
 #MainHeader {
   background-image: url(Images/Header2.jpg);
-  height: 20rem;
+  height: 7rem;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   color: #e71414;
   font-size: 30px;
-  padding-top: 30px;
+  padding-top: 5px;
   border: black solid 1px;
 }
 #Header2 {
-  font-size: 18px;
+  font-size: 20px;
   font-family: cursive;
   color: rgb(121, 238, 25);
 }
 
 .NavBar li {
   color: #3414e7;
-  font-size: 30px;
+  font-size: 22px;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   font-weight: bold;
   display: inline-table;
@@ -28,13 +28,13 @@
 .MainBody {
   display: grid;
   grid-template-columns: 30% 70%;
-  grid-template-rows: 50rem;
+  grid-template-rows: 38rem;
   border: black solid 1px;
 }
 
 .col-1 {
   background-color: black;
-  padding: 6rem;
+  padding: 5rem;
 }
 h3 {
   color: rgb(238, 147, 138);
@@ -46,6 +46,7 @@ h3 {
 p {
   color: rgb(238, 205, 202);
   font-family: "Merienda";
+  line-height: 2.2rem;
   font-size: 25px;
   font-weight: bold;
 }
@@ -62,23 +63,27 @@ p {
   padding: 1rem 2rem 1rem;
 }
 .Links {
-  background-color: rgb(166, 166, 219);
-  size: 100% 100%;
-  font-size: 40px;
-  color: black;
-  padding: 10rem 30rem 30rem;
-}
-.Contact {
-  background-color: rgb(166, 166, 219);
+  background-color: rgb(129, 129, 224);
   size: 100% 100%;
   font-size: 30px;
   color: black;
   padding: 10rem 30rem 30rem;
+  line-height: 3rem;
 }
-#About p {
-  background-color: rgb(166, 166, 219);
+.Contact {
+  background-color: rgb(129, 129, 224);
   size: 100% 100%;
-  font-size: 40px;
+  font-size: 30px;
   color: black;
   padding: 10rem 30rem 30rem;
+  line-height: 3rem;
+}
+.About p {
+  background-color: rgb(129, 129, 224);
+  size: 100% 100%;
+  font-size: 30px;
+  color: black;
+  padding: 10rem 30rem 30rem;
+  line-height: 3rem;
+  font-weight: normal;
 }
