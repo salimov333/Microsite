@@ -25,6 +25,10 @@
   padding: 1rem 4rem 1rem;
 }
 
+.NavBar a {
+  text-decoration: none;
+}
+
 .MainBody {
   display: grid;
   grid-template-columns: 30% 70%;
@@ -62,6 +66,9 @@ p {
   display: inline-block;
   padding: 1rem 2rem 1rem;
 }
+.Footer a {
+  text-decoration: none;
+}
 .Links {
   background-color: rgb(129, 129, 224);
   size: 100% 100%;
@@ -69,6 +76,9 @@ p {
   color: black;
   padding: 10rem 30rem 30rem;
   line-height: 3rem;
+}
+.Links a {
+  text-decoration: none;
 }
 .Contact {
   background-color: rgb(129, 129, 224);
@@ -86,4 +96,10 @@ p {
   padding: 10rem 30rem 30rem;
   line-height: 3rem;
   font-weight: normal;
+}
+
+@media (min-width: 600px) {
+  .Contact {
+    color: rebeccapurple;
+  }
 }
