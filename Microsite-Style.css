@@ -1,0 +1,76 @@
+* {
+  margin: 0px;
+}
+#MainHeader {
+  background-image: url(images/Header2.jpg);
+  height: 20rem;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  color: #e71414;
+  font-size: 30px;
+  padding-top: 30px;
+  border: black solid 1px;
+}
+#Header2 {
+  font-size: 18px;
+  font-family: cursive;
+  color: rgb(121, 238, 25);
+}
+
+.NavBar li {
+  color: #3414e7;
+  font-size: 30px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: bold;
+  display: inline-table;
+  padding: 1rem 4rem 1rem;
+}
+
+.MainBody {
+  display: grid;
+  grid-template-columns: 30% 70%;
+  grid-template-rows: 50rem;
+  border: black solid 1px;
+}
+
+.col-1 {
+  background-color: black;
+  padding: 6rem;
+}
+p {
+  color: rgb(238, 205, 202);
+  font-size: 35px;
+  font-weight: bold;
+}
+.col-2 {
+  background-image: url(Images/MainContent2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: black solid 1px;
+}
+.Footer li {
+  color: #210d92;
+  font-size: 20px;
+  display: inline-block;
+  padding: 1rem 2rem 1rem;
+}
+.Links {
+  background-color: rgb(166, 166, 219);
+  size: 100% 100%;
+  font-size: 40px;
+  color: black;
+  padding: 10rem 30rem 30rem;
+}
+.Contact {
+  background-color: rgb(166, 166, 219);
+  size: 100% 100%;
+  font-size: 30px;
+  color: black;
+  padding: 10rem 30rem 30rem;
+}
+#About p {
+  background-color: rgb(166, 166, 219);
+  size: 100% 100%;
+  font-size: 40px;
+  color: black;
+  padding: 10rem 30rem 30rem;
+}
