@@ -1,14 +1,17 @@
 * {
   margin: 0px;
 }
-#MainHeader {
+.MainHeader {
   background-image: url(Images/Header2.jpg);
   height: 7rem;
+  border: black solid 1px;
+  animation-duration: 5s;
+}
+#Header1 {
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   color: #e71414;
-  font-size: 30px;
-  padding-top: 5px;
-  border: black solid 1px;
+  font-size: 40px;
+  padding: 1rem 0 1rem;
 }
 #Header2 {
   font-size: 20px;
@@ -23,6 +26,7 @@
   font-weight: bold;
   display: inline-table;
   padding: 1rem 4rem 1rem;
+  animation-duration: 5s;
 }
 
 .NavBar a {
@@ -40,7 +44,7 @@
   background-color: black;
   padding: 5rem 3rem 3rem;
 }
-h3 {
+.col-1 h3 {
   color: rgb(238, 147, 138);
   font-family: "Merienda";
   font-size: 40px;
@@ -70,34 +74,64 @@ h3 {
   text-decoration: none;
 }
 .Links {
-  background-color: rgb(129, 129, 224);
-
-  font-size: 30px;
-
-  padding: 10rem 30rem 30rem;
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+}
+.Links ul {
+  line-height: 1rem;
+  font-size: 35px;
+  font-weight: bold;
+  color: crimson;
   line-height: 3rem;
+  margin-top: 5%;
+  margin-left: 33%;
+}
+.Links h2 {
+  padding: 1rem;
 }
 .Links a {
   text-decoration: none;
-  color: black;
-  background-color: rgb(57, 189, 107);
-  border-radius: 1rem;
-  text-transform: capitalize;
+  color: crimson;
 }
-.Contact {
-  background-color: rgb(129, 129, 224);
 
-  font-size: 30px;
-
-  padding: 10rem 30rem 30rem;
-  line-height: 3rem;
+.About {
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
 }
 .About p {
-  background-color: rgb(129, 129, 224);
-
-  font-size: 30px;
-
-  padding: 10rem 30rem 30rem;
-  line-height: 3rem;
-  font-weight: normal;
+  text-align: center;
+  font-size: 35px;
+  font-weight: bold;
+  color: crimson;
+  margin-top: 5%;
+  line-height: 4rem;
+}
+.About h2 {
+  padding: 1rem;
+}
+.About a {
+  text-decoration: none;
+  color: crimson;
+}
+.Contact {
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+}
+.Contact p {
+  text-align: center;
+  font-size: 35px;
+  font-weight: bold;
+  color: crimson;
+  margin-top: 5%;
+  line-height: 4rem;
+}
+.Contact h2 {
+  padding: 1rem;
+}
+.Contact a {
+  text-decoration: none;
+  color: crimson;
 }
